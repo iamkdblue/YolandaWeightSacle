@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">QNBleDemo</string>
+    <string name="scan">scanning</string>
+    <string name="stop">stop</string>
+    <string name="user_id_explain">Set the users data, you will need to calculate the body fat rate</string>
+    <string name="user_gender_explain">The male is "male" and the female is "female"</string>
+    <string name="user_height_explain">The unit is cm, the range is 40~240cm</string>
+    <string name="user_birthday_explain">Only support children under 10 years old and under 80 years old. For those under 10 years old, only body weight and BMI data are valid.</string>
+    <string name="ble_scan_explain">When "First Time" is selected, each device will only return once in a single scan. When "Every time" is selected, each device may be called back multiple times in a single scan, but the signal strength will be different.</string>
+    <string name="user_unit_explain">kg The default value of kilograms is \n lb. All scales can support this unit\n kg. If the scale end does not support it, it will display kg\nst.英石,如果秤端不支持会显示lb</string>
+    <string name="cancel">cancel</string>
+    <string name="sure">determine</string>
+    <string name="RegisterViewController_women">Female</string>
+    <string name="RegisterViewController_man">male</string>
+    <string name="RegisterViewController_lowAge10">Your age is less than 10 years old, you cant get accurate measurement data when testing</string>
+    <string name="date_format_day">yyyy-MM-dd</string>
+    <string name="register_ok">confirm</string>
+    <string name="scan_out_time_remind">After setting the time, no Bluetooth device will be scanned within the specified time, and the error message will be recalled.</string>
+    <string name="scan_time_remind">Scan duration, in ms, defaults to 0, that is, scans all the time, unless the APP calls stopBleDeviceDiscovery. If it is not 0, the minimum value is 3000ms, the delay will automatically stop after the duration ms time.</string>
+
+    <string-array name="user_shape_des">
+        <item>Not selected</item>
+        <item>Slim, slim</item>
+        <item>Well-proportioned, standard type</item>
+        <item>Bodybuilding muscle type</item>
+        <item>Plump, super heavy</item>
+    </string-array>
+
+    <string-array name="user_goal_des">
+        <item>Not selected</item>
+        <item>Fat loss</item>
+        <item>stay healthy</item>
+        <item>Muscle gain</item>
+        <item>Strength exercises, such as equipment exercises, several times a week</item>
+        <item>Good foundation, but lack of systematic training</item>
+        <item>Aerobic exercise several times a week, such as running</item>
+    </string-array>
+</resources>
